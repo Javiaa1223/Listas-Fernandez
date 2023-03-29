@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    height: var(--altura-toolbar);
+    background-color: blue;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+.main {
+    height: calc(100vh - var(--altura-toolbar));
+    width: 100vw;
+}
+.navbar{
+    background-color: blue;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+.student{
+    background-color: lightblue;
+    display: grid;
+    place-items: center;
+}
+
+/* You can add global styles to this file, and also import other style files */
